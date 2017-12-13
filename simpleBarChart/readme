@@ -1,0 +1,16 @@
+I have kept the steps separate to make this example as clear as possible:
+
+The access token can be setup and retrieved from: https://www.strava.com/settings/api
+
+Retrieve a user activities as a json string:
+
+$ node loadActivities.js  > data.json
+
+Format these json data a a scv. Sum all the distances for a given day:
+
+$ node distancePerDay.js data.json > data.csv
+
+Display a bar chart of the distances per day:
+
+barChart.html
+
