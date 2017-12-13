@@ -6,7 +6,7 @@ Retrieve a user activities as a json string:
 
 $ node loadActivities.js  > data.json
 
-Format these json data a a scv. Sum all the distances for a given day:
+Format the json data as a csv file. Sum all the distances for a given day:
 
 $ node distancePerDay.js data.json > data.csv
 
