@@ -1,0 +1,10 @@
+Heatmap showing the # of activities per day and hour. The logic could be expanded to only track the commute rides.
+
+Based on: http://bl.ocks.org/tjdecke/5558084
+
+$ node activitiesPerDayAndHour.js  all.json > data.tsv
+
+Display the heatmap:
+
+heatmap.html
+
