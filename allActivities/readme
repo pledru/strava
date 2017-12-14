@@ -1,0 +1,11 @@
+Retrieve all the (non private) activities for a user:
+
+$ node loadActivities.js > all.json
+
+Create a map of the # of activities per month:
+
+$ node activitiesPerMonth.js all.json > all.csv
+
+Display a bar chart of the # of activities per month:
+
+barChart.html
