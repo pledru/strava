@@ -17,10 +17,10 @@ fs.readFile(f[0], 'utf8', (err, contents) => {
     }, {});
     let result = [];
     for (p in r) {
-        result.push({month: p, distance: r[p]});
+        result.push({month: p, activities: r[p]});
     }
     result.sort((a,b) => (a.month - b.month));
-    result.forEach(x => console.log(months[x.month] + ',' + x.distance));
+    result.forEach(x => console.log(months[x.month] + ',' + x.activities));
 });
 
 
