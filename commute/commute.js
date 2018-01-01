@@ -53,7 +53,7 @@ const verify = function(p1, p2) {
                let from1 = geolib.getDistance(p1, end);
                let from2 = geolib.getDistance(p2, start);
                if (!activity.commute) {
-                   // assume less than 1000 meter is a match
+                   // assume less than 1000 meters is a match
                    // should be configurable, same as the hidden locations in the user interface
                    if ((to1 < 1000 && to2 < 1000) || (from1 < 1000 && from2 < 1000)) {
                        console.log("Activity: " + activity.id + " Commute: " + activity.commute);
